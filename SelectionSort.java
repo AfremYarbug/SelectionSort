@@ -11,11 +11,11 @@ public class SelectionSort {
     }
     System.out.println();
 
-    int[] AssortedSeries = selectionSort(array);
+    int[] assortedSeries = selectionSort(array);
 
     System.out.println("Array sorted: ");
-    for (int sorted = 0; sorted < AssortedSeries.length; sorted++) {
-      System.out.print(AssortedSeries[sorted] + "| ");
+    for (int sorted = 0; sorted < assortedSeries.length; sorted++) {
+      System.out.print(assortedSeries[sorted] + "| ");
     }
   }
 
